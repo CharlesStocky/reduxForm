@@ -1,0 +1,44 @@
+{
+  "name": "coupizza",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-polyfill": "^6.23.0",
+    "body-parser": "^1.17.2",
+    "css-loader": "^0.28.4",
+    "express": "^4.15.3",
+    "pug": "^2.0.3",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2",
+    "redux-form": "^7.3.0"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "react"
+    ]
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.5.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "concurrently": "^3.5.0",
+    "html-loader": "^0.4.5",
+    "nodemon": "^1.11.0",
+    "url-loader": "^0.5.9",
+    "webpack": "^3.3.0"
+  },
+  "scripts": {
+    "start": "nodemon server/server.js",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
